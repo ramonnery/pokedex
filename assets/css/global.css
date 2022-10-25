@@ -1,0 +1,39 @@
+:root {
+  --verde: #49d0b0;
+  --verde-claro: #61e1ca;
+  --branco: #fff;
+  --preto: #000;
+  --bg-fundo: #f6f8fc;
+
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-fundo);
+}
+
+.content {
+  padding: 1rem;
+  background-color: var(--branco);
+  height: 100vh;
+  width: 100vw;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
+
+.content h1 {
+  margin: 0;
+}
+
+
